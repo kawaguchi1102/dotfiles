@@ -1,0 +1,25 @@
+cask_args appdir: "/Applications"
+
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+
+brew "anyenv"
+brew "composer"
+brew "git"
+brew "jq"
+brew "mono"
+brew "tree"
+brew "watchman"
+brew "yarn"
+brew "direnv"
+
+cask 'adobe-creative-cloud'
+cask "docker"
+cask "google-chrome"
+cask "google-japanese-ime"
+cask "iterm2"
+cask "virtualbox"
+cask "vagrant"
+
+mas "Slack", id: 803453959
